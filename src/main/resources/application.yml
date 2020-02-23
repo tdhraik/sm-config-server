@@ -1,0 +1,11 @@
+server:
+  port: 8191
+
+spring:
+  application:
+    name: sm-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/tdhraik/sm-config-server.git
