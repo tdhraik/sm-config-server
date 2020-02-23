@@ -1,6 +1,0 @@
-cron:
-  job:
-    exchange:
-      rate:
-        latest: 0 */1 * * * * # runs every 1 minute
-        historic: 0 0 3 * * ?  # runs at 3 AM every day
